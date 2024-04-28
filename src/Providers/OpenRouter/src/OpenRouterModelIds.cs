@@ -438,14 +438,9 @@ public enum OpenRouterModelIds
         AnthropicClaude3Haiku,
         
         /// <summary>
-        /// Claude 2.1 delivers advancements in key capabilities for enterprises—including an industry-leading 200K token context window, significant reductions in rates of model hallucination, system prompts and a new beta feature: tool use.  <br/>
+        /// Claude 2 delivers advancements in key capabilities for enterprises—including an industry-leading 200K token context window, significant reductions in rates of model hallucination, system prompts and a new beta feature: tool use.  <br/>
         /// </summary>
         AnthropicClaudeV2,
-        
-        /// <summary>
-        /// Claude 2.1 delivers advancements in key capabilities for enterprises—including an industry-leading 200K token context window, significant reductions in rates of model hallucination, system prompts and a new beta feature: tool use.  <br/>
-        /// </summary>
-        AnthropicClaudeV21,
         
         /// <summary>
         /// Anthropic's flagship model. Superior performance on tasks that require complex reasoning. Supports hundreds of pages of text.  <br/>
@@ -456,11 +451,6 @@ public enum OpenRouterModelIds
         /// Anthropic's model for low-latency, high throughput text generation. Supports hundreds of pages of text.  <br/>
         /// </summary>
         AnthropicClaudeInstantV1,
-        
-        /// <summary>
-        /// Anthropic's model for low-latency, high throughput text generation. Supports hundreds of pages of text.  <br/>
-        /// </summary>
-        AnthropicClaudeInstantV12,
         
         /// <summary>
         /// This is a lower-latency version of Claude 3 Opus, made available in collaboration with Anthropic, that is self-moderated: response moderation happens on the model's side instead of OpenRouter's. It's in beta, and may change in the future.  <br/>
@@ -489,15 +479,9 @@ public enum OpenRouterModelIds
         
         /// <summary>
         /// This is a lower-latency version of Claude v2, made available in collaboration with Anthropic, that is self-moderated: response moderation happens on the model's side instead of OpenRouter's. It's in beta, and may change in the future.  <br/>
-        /// Claude 2.1 delivers advancements in key capabilities for enterprises—including an industry-leading 200K token context window, significant reductions in rates of model hallucination, system prompts and a new beta feature: tool use.  <br/>
+        /// Claude 2 delivers advancements in key capabilities for enterprises—including an industry-leading 200K token context window, significant reductions in rates of model hallucination, system prompts and a new beta feature: tool use.  <br/>
         /// </summary>
         AnthropicClaudeV2SelfModerated,
-        
-        /// <summary>
-        /// This is a lower-latency version of Claude v2.1, made available in collaboration with Anthropic, that is self-moderated: response moderation happens on the model's side instead of OpenRouter's. It's in beta, and may change in the future.  <br/>
-        /// Claude 2.1 delivers advancements in key capabilities for enterprises—including an industry-leading 200K token context window, significant reductions in rates of model hallucination, system prompts and a new beta feature: tool use.  <br/>
-        /// </summary>
-        AnthropicClaudeV21SelfModerated,
         
         /// <summary>
         /// This is a lower-latency version of Claude v2.0, made available in collaboration with Anthropic, that is self-moderated: response moderation happens on the model's side instead of OpenRouter's. It's in beta, and may change in the future.  <br/>
