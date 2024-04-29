@@ -5,11 +5,6 @@ namespace LangChain.Providers.OpenRouter.Predefined;
 public class NousCapybara7BFreeModel(OpenRouterProvider provider) : OpenRouterModel(provider, OpenRouterModelIds.NousCapybara7BFree);
 
 
-/// <inheritdoc cref="OpenRouterModelIds.Mistral7BInstructFree"/>
-/// <param name="provider">Open Router Provider Instance</param>
-public class Mistral7BInstructFreeModel(OpenRouterProvider provider) : OpenRouterModel(provider, OpenRouterModelIds.Mistral7BInstructFree);
-
-
 /// <inheritdoc cref="OpenRouterModelIds.OpenChat35Free"/>
 /// <param name="provider">Open Router Provider Instance</param>
 public class OpenChat35FreeModel(OpenRouterProvider provider) : OpenRouterModel(provider, OpenRouterModelIds.OpenChat35Free);
@@ -355,6 +350,11 @@ public class AnthropicClaudeV2Model(OpenRouterProvider provider) : OpenRouterMod
 public class AnthropicClaudeV20Model(OpenRouterProvider provider) : OpenRouterModel(provider, OpenRouterModelIds.AnthropicClaudeV20);
 
 
+/// <inheritdoc cref="OpenRouterModelIds.AnthropicClaudeV21"/>
+/// <param name="provider">Open Router Provider Instance</param>
+public class AnthropicClaudeV21Model(OpenRouterProvider provider) : OpenRouterModel(provider, OpenRouterModelIds.AnthropicClaudeV21);
+
+
 /// <inheritdoc cref="OpenRouterModelIds.AnthropicClaudeInstantV1"/>
 /// <param name="provider">Open Router Provider Instance</param>
 public class AnthropicClaudeInstantV1Model(OpenRouterProvider provider) : OpenRouterModel(provider, OpenRouterModelIds.AnthropicClaudeInstantV1);
@@ -383,6 +383,11 @@ public class AnthropicClaudeV2SelfModeratedModel(OpenRouterProvider provider) : 
 /// <inheritdoc cref="OpenRouterModelIds.AnthropicClaudeV20SelfModerated"/>
 /// <param name="provider">Open Router Provider Instance</param>
 public class AnthropicClaudeV20SelfModeratedModel(OpenRouterProvider provider) : OpenRouterModel(provider, OpenRouterModelIds.AnthropicClaudeV20SelfModerated);
+
+
+/// <inheritdoc cref="OpenRouterModelIds.AnthropicClaudeV21SelfModerated"/>
+/// <param name="provider">Open Router Provider Instance</param>
+public class AnthropicClaudeV21SelfModeratedModel(OpenRouterProvider provider) : OpenRouterModel(provider, OpenRouterModelIds.AnthropicClaudeV21SelfModerated);
 
 
 /// <inheritdoc cref="OpenRouterModelIds.AnthropicClaudeInstantV1SelfModerated"/>

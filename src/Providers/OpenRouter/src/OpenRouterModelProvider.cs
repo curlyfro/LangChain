@@ -10,7 +10,6 @@ public static class OpenRouterModelProvider
     private static Dictionary<OpenRouterModelIds, ChatModels> Models { get; set; } = new()
     {
         { OpenRouterModelIds.NousCapybara7BFree, new ChatModels("nousresearch/nous-capybara-7b:free",4096,0,0)},
-        { OpenRouterModelIds.Mistral7BInstructFree, new ChatModels("mistralai/mistral-7b-instruct:free",32768,0,0)},
         { OpenRouterModelIds.OpenChat35Free, new ChatModels("openchat/openchat-7b:free",8192,0,0)},
         { OpenRouterModelIds.Mythomist7BFree, new ChatModels("gryphe/mythomist-7b:free",32768,0,0)},
         { OpenRouterModelIds.ToppyM7BFree, new ChatModels("undi95/toppy-m-7b:free",4096,0,0)},
@@ -80,12 +79,14 @@ public static class OpenRouterModelProvider
         { OpenRouterModelIds.AnthropicClaude3Haiku, new ChatModels("anthropic/claude-3-haiku",200000,2.5E-07,1.25E-06)},
         { OpenRouterModelIds.AnthropicClaudeV2, new ChatModels("anthropic/claude-2",200000,8E-06,2.4E-05)},
         { OpenRouterModelIds.AnthropicClaudeV20, new ChatModels("anthropic/claude-2.0",100000,8E-06,2.4E-05)},
+        { OpenRouterModelIds.AnthropicClaudeV21, new ChatModels("anthropic/claude-2.1",200000,8E-06,2.4E-05)},
         { OpenRouterModelIds.AnthropicClaudeInstantV1, new ChatModels("anthropic/claude-instant-1",100000,8.000000000000001E-07,2.4E-06)},
         { OpenRouterModelIds.AnthropicClaude3OpusSelfModerated, new ChatModels("anthropic/claude-3-opus:beta",200000,1.4999999999999999E-05,7.5E-05)},
         { OpenRouterModelIds.AnthropicClaude3SonnetSelfModerated, new ChatModels("anthropic/claude-3-sonnet:beta",200000,3E-06,1.4999999999999999E-05)},
         { OpenRouterModelIds.AnthropicClaude3HaikuSelfModerated, new ChatModels("anthropic/claude-3-haiku:beta",200000,2.5E-07,1.25E-06)},
         { OpenRouterModelIds.AnthropicClaudeV2SelfModerated, new ChatModels("anthropic/claude-2:beta",200000,8E-06,2.4E-05)},
         { OpenRouterModelIds.AnthropicClaudeV20SelfModerated, new ChatModels("anthropic/claude-2.0:beta",100000,8E-06,2.4E-05)},
+        { OpenRouterModelIds.AnthropicClaudeV21SelfModerated, new ChatModels("anthropic/claude-2.1:beta",200000,8E-06,2.4E-05)},
         { OpenRouterModelIds.AnthropicClaudeInstantV1SelfModerated, new ChatModels("anthropic/claude-instant-1:beta",100000,8.000000000000001E-07,2.4E-06)},
         { OpenRouterModelIds.MetaLlamaV213BChat, new ChatModels("meta-llama/llama-2-13b-chat",4096,1.3E-07,1.3E-07)},
         { OpenRouterModelIds.MetaLlamaV270BChat, new ChatModels("meta-llama/llama-2-70b-chat",4096,6E-07,1.9E-06)},

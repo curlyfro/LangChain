@@ -14,13 +14,6 @@ public enum OpenRouterModelIds
         NousCapybara7BFree,
         
         /// <summary>
-        /// A 7.3B parameter model that outperforms Llama 2 13B on all benchmarks, with optimizations for speed and context length.  <br/>
-        /// This is v0.1 of Mistral 7B Instruct. For v0.2, use this model.  <br/>
-        /// Note: this is a free, rate-limited version of this model. Outputs may be cached. Read about rate limits here.  <br/>
-        /// </summary>
-        Mistral7BInstructFree,
-        
-        /// <summary>
         /// OpenChat is a library of open-source language models, fine-tuned with "C-RLFT (Conditioned Reinforcement Learning Fine-Tuning)" - a strategy inspired by offline reinforcement learning. It has been trained on mixed-quality data without preference labels.  <br/>
         /// Note: this is a free, rate-limited version of this model. Outputs may be cached. Read about rate limits here.  <br/>
         /// </summary>
@@ -448,6 +441,11 @@ public enum OpenRouterModelIds
         AnthropicClaudeV20,
         
         /// <summary>
+        /// Claude 2 delivers advancements in key capabilities for enterprises—including an industry-leading 200K token context window, significant reductions in rates of model hallucination, system prompts and a new beta feature: tool use.  <br/>
+        /// </summary>
+        AnthropicClaudeV21,
+        
+        /// <summary>
         /// Anthropic's model for low-latency, high throughput text generation. Supports hundreds of pages of text.  <br/>
         /// </summary>
         AnthropicClaudeInstantV1,
@@ -488,6 +486,12 @@ public enum OpenRouterModelIds
         /// Anthropic's flagship model. Superior performance on tasks that require complex reasoning. Supports hundreds of pages of text.  <br/>
         /// </summary>
         AnthropicClaudeV20SelfModerated,
+        
+        /// <summary>
+        /// This is a lower-latency version of Claude v2.1, made available in collaboration with Anthropic, that is self-moderated: response moderation happens on the model's side instead of OpenRouter's. It's in beta, and may change in the future.  <br/>
+        /// Claude 2 delivers advancements in key capabilities for enterprises—including an industry-leading 200K token context window, significant reductions in rates of model hallucination, system prompts and a new beta feature: tool use.  <br/>
+        /// </summary>
+        AnthropicClaudeV21SelfModerated,
         
         /// <summary>
         /// This is a lower-latency version of Claude Instant v1, made available in collaboration with Anthropic, that is self-moderated: response moderation happens on the model's side instead of OpenRouter's. It's in beta, and may change in the future.  <br/>
