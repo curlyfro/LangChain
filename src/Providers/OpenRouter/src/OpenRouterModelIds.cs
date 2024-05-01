@@ -54,13 +54,6 @@ public enum OpenRouterModelIds
         Cinematika7BAlphaFree,
         
         /// <summary>
-        /// Gemma by Google is an advanced, open-source language model family, leveraging the latest in decoder-only, text-to-text technology. It offers English language capabilities across text generation tasks like question answering, summarization, and reasoning. The Gemma 7B variant is comparable in performance to leading open source models.  <br/>
-        /// Usage of Gemma is subject to Google's Gemma Terms of Use.  <br/>
-        /// Note: this is a free, rate-limited version of this model. Outputs may be cached. Read about rate limits here.  <br/>
-        /// </summary>
-        GoogleGemma7BFree,
-        
-        /// <summary>
         /// The v2 of Psyfighter - a merged model created by the KoboldAI community members Jeb Carter and TwistedShadows, made possible thanks to the KoboldAI merge request service.  <br/>
         /// The intent was to add medical data to supplement the model's fictional ability with more details on anatomy and mental states. This model should not be used for medical advice or therapy because of its high likelihood of pulling in fictional data.  <br/>
         /// It's a merge between:  <br/>
@@ -244,6 +237,12 @@ public enum OpenRouterModelIds
         /// To read more about the model release, click here. Usage of this model is subject to Meta's Acceptable Use Policy.  <br/>
         /// </summary>
         MetaLlama370BInstruct,
+        
+        /// <summary>
+        /// Arctic is a dense-MoE Hybrid transformer architecture pre-trained from scratch by the Snowflake AI Research Team. Arctic combines a 10B dense transformer model with a residual 128x3.66B MoE MLP resulting in 480B total and 17B active parameters chosen using a top-2 gating.  <br/>
+        /// To read more about this model's release, click here.  <br/>
+        /// </summary>
+        SnowflakeArcticInstruct,
         
         /// <summary>
         /// A pretrained generative Sparse Mixture of Experts, by Mistral AI, for chat and instruction use. Incorporates 8 experts (feed-forward networks) for a total of 47 billion parameters.  <br/>

@@ -30,11 +30,6 @@ public class ToppyM7BFreeModel(OpenRouterProvider provider) : OpenRouterModel(pr
 public class Cinematika7BAlphaFreeModel(OpenRouterProvider provider) : OpenRouterModel(provider, OpenRouterModelIds.Cinematika7BAlphaFree);
 
 
-/// <inheritdoc cref="OpenRouterModelIds.GoogleGemma7BFree"/>
-/// <param name="provider">Open Router Provider Instance</param>
-public class GoogleGemma7BFreeModel(OpenRouterProvider provider) : OpenRouterModel(provider, OpenRouterModelIds.GoogleGemma7BFree);
-
-
 /// <inheritdoc cref="OpenRouterModelIds.PsyfighterV213B"/>
 /// <param name="provider">Open Router Provider Instance</param>
 public class PsyfighterV213BModel(OpenRouterProvider provider) : OpenRouterModel(provider, OpenRouterModelIds.PsyfighterV213B);
@@ -188,6 +183,11 @@ public class NousHermes2Mistral7BDpoModel(OpenRouterProvider provider) : OpenRou
 /// <inheritdoc cref="OpenRouterModelIds.MetaLlama370BInstruct"/>
 /// <param name="provider">Open Router Provider Instance</param>
 public class MetaLlama370BInstructModel(OpenRouterProvider provider) : OpenRouterModel(provider, OpenRouterModelIds.MetaLlama370BInstruct);
+
+
+/// <inheritdoc cref="OpenRouterModelIds.SnowflakeArcticInstruct"/>
+/// <param name="provider">Open Router Provider Instance</param>
+public class SnowflakeArcticInstructModel(OpenRouterProvider provider) : OpenRouterModel(provider, OpenRouterModelIds.SnowflakeArcticInstruct);
 
 
 /// <inheritdoc cref="OpenRouterModelIds.Mixtral8X7BInstructNitro"/>
