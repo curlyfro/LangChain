@@ -246,6 +246,12 @@ public enum OpenRouterModelIds
         MetaLlama370BInstruct,
         
         /// <summary>
+        /// Arctic is a dense-MoE Hybrid transformer architecture pre-trained from scratch by the Snowflake AI Research Team. Arctic combines a 10B dense transformer model with a residual 128x3.66B MoE MLP resulting in 480B total and 17B active parameters chosen using a top-2 gating.  <br/>
+        /// To read more about this model's release, click here.  <br/>
+        /// </summary>
+        SnowflakeArcticInstruct,
+        
+        /// <summary>
         /// A pretrained generative Sparse Mixture of Experts, by Mistral AI, for chat and instruction use. Incorporates 8 experts (feed-forward networks) for a total of 47 billion parameters.  <br/>
         /// Instruct model fine-tuned by Mistral. #moe  <br/>
         /// Note: this is a higher-throughput version of this model, and may have higher prices and slightly different outputs.  <br/>
@@ -410,8 +416,8 @@ public enum OpenRouterModelIds
         PerplexitySonar8X7BOnline,
         
         /// <summary>
-        /// The first commercially permissive OSS LLaVA model.  <br/>
-        /// This vision-language model was trained entirely on OSS LLM generated instruction following data.  <br/>
+        /// A blazing fast vision-language model, FireLLaVA quickly understands both text and images. It achieves impressive chat skills in tests, and was designed to mimic multimodal GPT-4.  <br/>
+        /// The first commercially permissive open source LLaVA model, trained entirely on open source LLM generated instruction following data.  <br/>
         /// </summary>
         Firellava13B,
         
@@ -642,13 +648,6 @@ public enum OpenRouterModelIds
         /// #moe  <br/>
         /// </summary>
         DatabricksDbrx132BInstruct,
-        
-        /// <summary>
-        /// Zephyr 141B-A35B is A Mixture of Experts (MoE) model with 141B total parameters and 35B active parameters. Fine-tuned on a mix of publicly available, synthetic datasets.  <br/>
-        /// It is an instruct finetune of Mixtral 8x22B.  <br/>
-        /// #moe  <br/>
-        /// </summary>
-        Zephyr141BA35b,
         
         /// <summary>
         /// Meta's latest class of model (Llama 3) launched with a variety of sizes and flavors. This 8B instruct-tuned version was optimized for high quality dialogue usecases.  <br/>
