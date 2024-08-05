@@ -24,7 +24,7 @@ namespace LangChain.Databases.DuckDb
 
         public async Task<IVectorCollection> GetOrCreateCollectionAsync(string collectionName, int dimensions, CancellationToken cancellationToken = default)
         {
-            if(!await IsCollectionExistsAsync(collectionName, cancellationToken).ConfigureAwait(false))
+            if (!await IsCollectionExistsAsync(collectionName, cancellationToken).ConfigureAwait(false))
                 await store.CreateCollectionAsync(collectionName, cancellationToken).ConfigureAwait(false);
             return new DuckDbVectorCollection(store, collectionName);
         }

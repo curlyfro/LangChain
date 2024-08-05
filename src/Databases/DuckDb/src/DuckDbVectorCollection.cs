@@ -38,7 +38,7 @@ namespace LangChain.Databases.DuckDb
             var record = await store.GetAsync(Name, id, cancellationToken: cancellationToken).ConfigureAwait(false);
 
             Dictionary<string, object>? metadata = null;
-            if(record?.Metadata?.AdditionalMetadata!=null)
+            if (record?.Metadata?.AdditionalMetadata != null)
                 metadata = record.Metadata.AdditionalMetadata
                 .Split('#')
                 .Select(part => part.Split('&'))
